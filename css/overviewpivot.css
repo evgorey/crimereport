@@ -1,0 +1,47 @@
+.mystyle {
+    font-size: 11pt; 
+    font-family: Open Sans;
+    border-collapse: collapse;
+    border-color: black;
+    border: 0.5;
+}
+
+.mystyle td, th {
+    padding: 5px;
+    text-align: center;
+}
+
+.mystyle th:nth-child(1) {
+    background-color: #CCCCCC;
+    border: #CCCCCC;
+}
+
+.mystyle th:nth-child(2) {
+    background-color: #437EC6;
+    border: #437EC6;
+}
+
+.mystyle th:nth-child(3) {
+    background-color: #B43C3C;
+    border: #B43C3C;
+}
+
+.mystyle th:nth-child(4) {
+    background-color: #91B151;
+    border: #91B151;
+}
+
+.mystyle th:nth-child(5) {
+    background-color: #CCCCCC;
+    border: #CCCCCC;
+}
+
+tr:last-child {
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
+
+td:last-child {
+    font-weight: bold;
+    background-color: #CCCCCC;
+}
